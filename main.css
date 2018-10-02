@@ -1,3 +1,19 @@
 body{
     background-color: aqua;
 }
+
+.card{
+    width: 200px;
+    height: 200px;
+}
+
+.character{
+    display: inline-block;
+}
+
+/* .card-img-top{
+    height: 280px;
+    width: 280px;
+    /* object-fit: cover;
+    object-position: 0 0; */
+/* } */

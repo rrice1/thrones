@@ -1,1 +1,4 @@
-console.log('main js linked')
+import{charactersBuilder} from './components/characters.js'
+
+
+charactersBuilder();
