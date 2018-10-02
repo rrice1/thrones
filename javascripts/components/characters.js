@@ -8,15 +8,30 @@ const characters = [{id:'character1',name: 'Homer Simpson', house:'Simpson', ima
 {id:'character4',name: 'Marge Simpson', house:'Simpson', imageUrl:'https://assets.fxnetworks.com/cms/prod/shows/the-simpsons/photos/simpsons-character/Marge/swsb_character_fact_marge_550x960.png'}]
 
 
+const characterClick = (e) => {
+    const characterId=e.target.closest('.character-card').id
+    const currentCharacter = characters.find(x=>{
+        return x.id === characterId
+    })
+    console.log('currentCharacter',currentCharacter);
+}
+
+const createEvents = () => {
+ const characterCards = document.getElementsByClassName('character-card');
+ for(let i=0;i<characterCards.length;i++){
+     characterCards[i].addEventListener('click',characterClick);
+ }
+};
+
 
 let charactersBuilder = () => {
     let newString = '';
     for(let i=0; i<characters.length;i++){
-    newString += `<div class="col-2 character">`
+    newString += `<div class="col-2 character-card" id="${characters[i].id}">`
     newString+= `<div class="card">`;
     newString+= `<img class="card-img-top" src="${characters[i].imageUrl}" alt="">`;
     newString+= `<div class="card-body">`;
-    newString+= `<h4 class="card-title" id="${characters[i].id}">${characters[i].name}</h4>`;
+    newString+= `<h4 class="card-title">${characters[i].name}</h4>`;
     newString+= `</div>`;
     newString+= `</div>`;
     newString+= `</div>`;
@@ -24,6 +39,7 @@ let charactersBuilder = () => {
     
 }
 printToDom(newString,'characters');
+createEvents();
 }
 
 export{charactersBuilder}
