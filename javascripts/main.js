@@ -1,4 +1,12 @@
 import{charactersBuilder} from './components/characters.js'
+import{getCharacters} from './data/charactersData.js'
 
 
-charactersBuilder();
+const initializeApp = () => {
+
+
+// charactersBuilder();
+getCharacters();
+}
+
+initializeApp();
