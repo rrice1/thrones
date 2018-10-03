@@ -1,0 +1,64 @@
+{
+    "characters": [
+        {
+            "id":"character1",
+            "name": "Homer Simpson",
+            "house":"Simpson",
+            "imageUrl":"https://ksassets.timeincuk.net/wp/uploads/sites/55/2017/03/simpsons-the-great-phatsby-1-920x584.jpg"
+        },
+        {
+            "id":"character2",
+            "name": "Bart Simpson", 
+            "house":"Simpson", 
+            "imageUrl":"https://vignette.wikia.nocookie.net/simpsons/images/7/7c/Bart_Simpson_Season_25_Official.jpg/revision/latest?cb=20140511110240"
+        },
+        {
+            "id":"character3",
+            "name": "Lisa Simpson", 
+            "house":"Simpson", 
+            "imageUrl":"https://previews.123rf.com/images/chutimakuanamon/chutimakuanamon1706/chutimakuanamon170600318/81156054-lisa-simpson-illustration-cartoon.jpg"
+        },
+        {
+            "id":"character4",
+            "name": "Marge Simpson", 
+            "house":"Simpson", 
+            "imageUrl":"https://assets.fxnetworks.com/cms/prod/shows/the-simpsons/photos/simpsons-character/Marge/swsb_character_fact_marge_550x960.png"
+            },
+            {
+                "id":"character5",
+                "name": "Milhouse Van Houten", 
+                "house":"Van Houten", 
+                "imageUrl":"https://i.kym-cdn.com/entries/icons/facebook/000/017/519/Milhouse_Van_Houten.jpg"
+            },
+            {
+                "id":"character6",
+                "name": "Waylon Smithers, Jr.", 
+                "house":"Smithers", 
+                "imageUrl":"https://vignette.wikia.nocookie.net/simpsons/images/8/83/Waylon_Smithers.png/revision/latest?cb=20170904025759"
+            },
+            {
+                "id":"character7",
+                "name": "Charles Montgomery Burns", 
+                "house":"Burns", 
+                "imageUrl":"https://upload.wikimedia.org/wikipedia/en/5/56/Mr_Burns.png"
+            },
+            {
+                "id":"character8",
+                "name": "Seymour Skinner", 
+                "house":"Skinner", 
+                "imageUrl":"https://vignette.wikia.nocookie.net/simpsons/images/9/9e/IMG_6086.png/revision/latest?cb=20161015135400"
+            },
+            {
+                "id":"character9",
+                "name": "Groundskeeper Willie", 
+                "house":"MacDougal", 
+                "imageUrl":"https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/GroundskeeperWillie.png/220px-GroundskeeperWillie.png"
+            },
+            {
+                "id":"character10",
+                "name": "Ned Flanders", 
+                "house":"Flanders", 
+                "imageUrl":"https://static.simpsonswiki.com/images/8/84/Ned_Flanders.png"
+            }
+        ]
+}
