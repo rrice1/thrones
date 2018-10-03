@@ -1,10 +1,9 @@
-import{setCharacters, charactersBuilder} from '../components/characters.js'
+import{setCharacters, charactersBuilder, getCharactersz} from '../components/characters.js'
 
 function executeThisCodeAfterFileLoaded () {
     const data = JSON.parse(this.responseText);
     setCharacters(data.characters);
-    charactersBuilder();
-    // console.log('request',data.characters);
+    charactersBuilder(getCharactersz());
 }
 
 function executeThisCodeIfXhrFails () {
